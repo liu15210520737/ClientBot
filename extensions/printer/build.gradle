@@ -1,0 +1,7 @@
+base { archivesName = 'clientbot-printer' }
+dependencies { implementation project(':core') }
+dependencies {
+    compileOnly "maven.modrinth:malilib:${malilib_version}"
+    compileOnly "maven.modrinth:litematica:${litematica_version}"
+    compileOnly "maven.modrinth:litematica-printer:${printer_version}"
+}
