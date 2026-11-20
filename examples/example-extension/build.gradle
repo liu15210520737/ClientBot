@@ -1,0 +1,2 @@
+base { archivesName = 'clientbot-example-extension' }
+dependencies { implementation project(':core') }
