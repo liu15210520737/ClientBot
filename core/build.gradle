@@ -1,0 +1,2 @@
+base { archivesName = 'clientbot-core' }
+loom { mods { clientbot { sourceSet sourceSets.main } } }
