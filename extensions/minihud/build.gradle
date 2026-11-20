@@ -1,0 +1,2 @@
+base { archivesName = 'clientbot-minihud' }
+dependencies { implementation project(':core') }
