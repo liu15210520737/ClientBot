@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "clientbot-printer",
+  "version": "${version}",
+  "name": "ClientBot: Litematica Printer",
+  "description": "Optional ClientBot extension for Litematica Printer.",
+  "authors": [
+    "liu15210520737"
+  ],
+  "contact": {
+    "sources": "https://github.com/liu15210520737/ClientBot"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "clientbot": [
+      "dev.clientbot.extension.printer.PrinterExtension"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "clientbot": ">=0.1.0"
+  },
+  "suggests": {
+    "malilib": "*",
+    "litematica": "*",
+    "litematica_printer": "*"
+  },
+  "custom": {
+    "clientbot:requires": [
+      "malilib",
+      "litematica",
+      "litematica_printer"
+    ]
+  }
+}
