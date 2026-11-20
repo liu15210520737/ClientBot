@@ -1,0 +1,2 @@
+base { archivesName = 'clientbot-servux' }
+dependencies { implementation project(':core') }
