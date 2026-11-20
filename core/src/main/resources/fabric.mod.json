@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "clientbot",
+  "version": "${version}",
+  "name": "ClientBot Core",
+  "description": "Secure whisper-controlled client automation core with task, integration and extension APIs.",
+  "authors": ["liu15210520737"],
+  "contact": {"sources": "https://github.com/liu15210520737/ClientBot", "issues": "https://github.com/liu15210520737/ClientBot/issues"},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {"client": ["dev.clientbot.core.ClientBotMod"]},
+  "mixins": [{"config": "clientbot.mixins.json", "environment": "client"}],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "custom": {"clientbot:api_version": 1}
+}
