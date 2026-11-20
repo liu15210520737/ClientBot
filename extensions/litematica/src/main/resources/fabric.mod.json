@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "clientbot-litematica",
+  "version": "${version}",
+  "name": "ClientBot: Litematica",
+  "description": "Optional ClientBot extension for Litematica.",
+  "authors": [
+    "liu15210520737"
+  ],
+  "contact": {
+    "sources": "https://github.com/liu15210520737/ClientBot"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "clientbot": [
+      "dev.clientbot.extension.litematica.LitematicaExtension"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "clientbot": ">=0.1.0"
+  },
+  "suggests": {
+    "malilib": "*",
+    "litematica": "*"
+  },
+  "custom": {
+    "clientbot:requires": [
+      "malilib",
+      "litematica"
+    ]
+  }
+}
