@@ -1,0 +1,2 @@
+base { archivesName = 'clientbot-itemscroller' }
+dependencies { implementation project(':core') }
