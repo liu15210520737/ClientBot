@@ -1,0 +1,2 @@
+base { archivesName = 'clientbot-tweakeroo' }
+dependencies { implementation project(':core') }
