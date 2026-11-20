@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "clientbot-example",
+  "version": "${version}",
+  "name": "ClientBot Example Extension",
+  "authors": [
+    "liu15210520737"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "clientbot": [
+      "dev.clientbot.example.ExampleExtension"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "clientbot": ">=0.1.0"
+  }
+}
