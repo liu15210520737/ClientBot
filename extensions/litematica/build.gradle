@@ -1,0 +1,6 @@
+base { archivesName = 'clientbot-litematica' }
+dependencies { implementation project(':core') }
+dependencies {
+    compileOnly "maven.modrinth:malilib:${malilib_version}"
+    compileOnly "maven.modrinth:litematica:${litematica_version}"
+}
