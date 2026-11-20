@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        maven { url = 'https://maven.fabricmc.net/' }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'ClientBot'
+
+include 'core'
+include 'extensions:carpet'
+include 'extensions:servux'
+include 'extensions:litematica'
+include 'extensions:printer'
+include 'extensions:tweakeroo'
+include 'extensions:minihud'
+include 'extensions:itemscroller'
+include 'extensions:quickshulker'
+include 'examples:example-extension'
